@@ -24,9 +24,6 @@ setup(
             'i18n/*/LC_MESSAGES/*.mo',
         ]
     },
-    install_requires=[
-        'python-ldap >= 3.3.0'
-    ],
     message_extractors={
         'ckanext': [
             ('**.py', 'python', None),  #
